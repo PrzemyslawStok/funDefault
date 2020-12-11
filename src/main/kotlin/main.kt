@@ -17,6 +17,10 @@ fun main() {
         println("x2 = ${x2(a,b,d)}")
     }
 
+    if(d==0.0){
+
+    }
+
 }
 
 fun add(a: Double, b:Double):Double{
