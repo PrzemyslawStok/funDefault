@@ -8,16 +8,16 @@ fun main() {
     val b = 5.0
     val c = 1.0
 
-    val d = delta(a,b,c)
+    val delta = deltaFun(a,b,c)
 
-    println("delta wynosi: $d")
+    println("delta wynosi: $delta")
 
-    if(d>0){
-        println("x1 = ${x1(a,b,d)}")
-        println("x2 = ${x2(a,b,d)}")
+    if(delta>0){
+        println("x1 = ${x1(a,b,delta)}")
+        println("x2 = ${x2(a,b,delta)}")
     }
 
-    if(d==0.0){
+    if(delta==0.0){
 
     }
 
@@ -27,7 +27,7 @@ fun add(a: Double, b:Double):Double{
     return a+b
 }
 
-fun delta(a: Double, b: Double, c:Double):Double{
+fun deltaFun(a: Double, b: Double, c:Double):Double{
     return b*b-4*a*c
 }
 
