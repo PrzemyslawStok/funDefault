@@ -5,6 +5,10 @@ fun main() {
     val b = 5.0
     val c = 1.0
 
+    squareEquation(a,b,c)
+}
+
+fun squareEquation(a: Double, b: Double, c:Double){
     val delta = deltaFun(a,b,c)
 
     println("delta wynosi: $delta")
@@ -17,7 +21,6 @@ fun main() {
     if(delta==0.0){
         //x = -b/2*a
     }
-
 }
 
 fun deltaFun(a: Double, b: Double, c:Double):Double{
