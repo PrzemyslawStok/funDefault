@@ -1,9 +1,6 @@
 import kotlin.math.sqrt
 
 fun main() {
-    add(2.0,5.0)
-    add(1.0,2.0)
-
     val a = 1.0
     val b = 5.0
     val c = 1.0
@@ -18,13 +15,9 @@ fun main() {
     }
 
     if(delta==0.0){
-
+        //x = -b/2*a
     }
 
-}
-
-fun add(a: Double, b:Double):Double{
-    return a+b
 }
 
 fun deltaFun(a: Double, b: Double, c:Double):Double{
