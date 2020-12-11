@@ -4,6 +4,17 @@ fun main() {
 
     equation(1.0,5.0,1.0)
     equation(2.0,1.0)
+
+    wizytowka("Przemysław", "Stokłosa")
+    wizytowka("Piotr", "Stokłosa")
+
+    wizytowka("Przemysław", "Stokłosa","Warszawa")
+}
+
+fun wizytowka(name: String, surname: String, city: String="Bielsko-Biała"){
+    println("Nazwisko: $name")
+    println("Imię: $name")
+    println("Miasto: $city")
 }
 
 fun equation(c: Double, b: Double, a:Double = 0.0){
